@@ -24,3 +24,13 @@ getreetNormal()
 
 const arrowFunc = ()=> "Hello from arrow function"
 console.log(arrowFunc())
+
+
+// characterstics of arrow function in theory 
+
+const arrowFunc2 = (firstName) => {
+    // function statements
+    return "Hello " + firstName
+}
+
+console.log(arrowFunc2("Anjali"))
