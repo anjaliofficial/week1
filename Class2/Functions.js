@@ -80,3 +80,6 @@ let sunFunc = (a,b) =>{
     console.log(sum)
     return sum
 }
+
+
+cb1(num1, num2, sunFunc)
