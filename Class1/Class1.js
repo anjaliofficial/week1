@@ -134,17 +134,17 @@ for(let  i = 0; i< 5; i++){
 }
 
 // while loop
-let j = 0
-while(j < 5){
-    console.log("While loop iteration: "+ i);
-}
+// let j = 0
+// while(j < 5){
+//     console.log("While loop iteration: "+ i);
+// }
 
-// while loop
-let j = 0
-while(j<5){
-    console.log("While loop iteration: "+ j);
-    j++;
-}
+// // while loop
+// let j = 0
+// while(j<5){
+//     console.log("While loop iteration: "+ j);
+//     j++;
+// }
 
 
 do{
