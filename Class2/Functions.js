@@ -83,3 +83,36 @@ let sunFunc = (a,b) =>{
 
 
 cb1(num1, num2, sunFunc)
+
+const res2 = cb1(20,30, (a,b) =>  a -b )
+console.log(res2)
+
+
+// practice 
+
+// make a function  named userStatus thatt takes two parameters
+// first parameter is a string named username
+// second paramater is a call back function that takes username as parameter 
+//make 2 function to pass in the callback 
+//first function is named isAdmin that returns true if username is "admin" else false
+//second function is named isGuest that returns true if username is "guest" else false
+//call userStatus function with different usernames and callback functions and log the results
+const userStatus  = (username, callback) => {
+    let status = callback (username)
+    return status
+}
+
+const isAdmin = (username) => {
+    let result = username === "admin" ? true : false
+    return result
+}
+
+const isGuest = (username) =>{
+    let result = username === "guest" ? true : false
+    return result
+}
+
+console.log( userStatus("admin", isAdmin)) // true
+console.log( userStatus("user1", isAdmin)) // false
+console.log(userStatus("guest", isGuest))
+console.log(userStatus("user2", isGuest)) // false
