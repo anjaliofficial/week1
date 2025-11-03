@@ -10,3 +10,17 @@ function add(a, b) {
 }
 let second = add("Apala", "Cutie")
 console.log(second)
+
+
+// no restriction of arguments and return 
+function greetNormal(){
+    console.log("Hello World")
+}
+getreetNormal()
+
+
+// 
+
+
+const arrowFunc = ()=> "Hello from arrow function"
+console.log(arrowFunc())
