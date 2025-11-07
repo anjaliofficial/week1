@@ -38,12 +38,12 @@ class Student extends  Person{
     gradeInfo(){
         console.log(`Name: ${this.name}, Grade: ${this.grade}`)
     }
-
-
-
 }
 
 
 const student1 = new Student ("Apala", 10, "A")
 student1.info()
 student1.gradeInfo()
+
+
+// StreamlIne ma OOP garna parchha 
